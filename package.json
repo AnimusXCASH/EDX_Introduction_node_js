@@ -1,0 +1,28 @@
+{
+  "name": "edx_introduction_node_js",
+  "version": "0.0.1",
+  "description": "learning node intro for edx",
+  "main": "index.js",
+  "scripts": {
+    "static": "serve -p 5050 static",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnimusXCASH/EDX_Introduction_node_js.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Animus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnimusXCASH/EDX_Introduction_node_js/issues"
+  },
+  "homepage": "https://github.com/AnimusXCASH/EDX_Introduction_node_js#readme",
+  "dependencies": {
+    "fastify": "^4.24.3",
+    "fastify-cli": "^5.9.0",
+    "serve": "^14.2.1"
+  }
+}
